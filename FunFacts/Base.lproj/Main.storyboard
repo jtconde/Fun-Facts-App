@@ -30,9 +30,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ote-lo-VT2"/>
                                 </constraints>
-                                <state key="normal" title="Show Another Fun Fact">
-                                    <color key="titleColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="Show Another Fun Fact"/>
                                 <connections>
                                     <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="wJh-ZA-0ja"/>
                                 </connections>
@@ -45,6 +43,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.35294117650000001" green="0.73333333329999995" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ecz-vh-5tv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EyS-f2-LfR"/>
                             <constraint firstItem="ecz-vh-5tv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ovw-mY-FpF"/>
@@ -59,6 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="4MU-VR-Eue" id="644-bY-eYI"/>
                         <outlet property="funFactLabel" destination="ecz-vh-5tv" id="nn0-V0-415"/>
                     </connections>
                 </viewController>
